@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup Form</title>
+    <link rel="stylesheet" href="singup.css">
+</head>
+
+<body>
+    <h1 class="heading">Registration Form</h1>
+    <div class="container">
+        <form action="/action.php" method="get">
+            <input type="text" id="name" required autocomplete="off" placeholder="Name" autofocus>
+            <input type="email" id="email" required autocomplete="off" placeholder="Email">
+            <br><br>
+
+            <input type="password" id="password" required placeholder="Password">
+            <input type="number" id="phone" required autocomplete="off" placeholder="Phone">
+            <br><br>
+
+            <input type="text" id="city" required autocomplete="off" placeholder="City">
+            <input type="text" id="state" required autocomplete="off" placeholder="State">
+            <br><br>
+
+            <input type="number" id="code" name="zip-code" required placeholder="Zip Code">
+            <input type="text" id="country" name="country" required placeholder="Country">
+
+            <div class="btn">
+                <button type="submit" onclick="toggleWhiteBorder()" class="submit-input">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        function toggleWhiteBorder() {
+            const element = document.querySelector('.submit-input');
+
+            element.classList.add('active');
+
+            setTimeout(() => {
+                element.classList.remove('active');
+            }, 2000); 
+        };
+    </script>
+</body>
+
+</html>
