@@ -119,9 +119,120 @@ input::placeholder{
         font-size: 15px;
     }
 }
-
 @media screen and (min-width: 768px) and (max-width: 799px) {
     input{
         width: 220px;
+    }
+}
+@media screen and (width: 375px) and (height: 667px) {
+    .heading{
+        margin: 26px;
+    }
+    form{
+        height: 478px;
+    }
+    input{
+        margin: 5px;
+        width: 216px;
+    }
+}
+@media screen and (width: 360px) and (height: 740px) {
+    .heading{
+        margin: 20px;
+        font-size: 30px;
+    }
+    input{
+        margin: 10px;
+    }
+    form{
+        height: 568px;
+    }
+    input::placeholder{
+        font-size: 13px;
+    }
+}
+@media screen and (width: 540px) and (height: 720px) {
+    .heading{
+        margin: 20px;
+    }
+    form{
+        height: 542px;
+        width: 314px;
+        align-items: center;
+    }
+    input{
+        width: 284px;
+        margin: 8px;
+        padding: 7px;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    input::placeholder{
+        font-size: 13px;
+    }
+}
+@media screen and (width: 390px) and (height: 844px) {
+    .heading{
+        margin: 28px;
+    }
+}
+@media screen and (width: 820px) and (height: 1180px) {
+    form{
+        width: 472px;
+        height: 824px;
+    }
+    input{
+        margin-left: 54px;
+        padding: 12px;
+        width: 338px;
+    }
+    .btn{
+        margin: 22px;
+    }
+}
+@media screen and (width: 280px) and (height: 653px) {
+    .heading{
+        margin: 16px;
+        font-size: x-large;
+    }
+    form{
+        width: 154px;
+        height: 520px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    input{
+        padding: 6px;
+        margin-left: 10px;
+        width: 117px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .submit-input{
+        padding: 6px;
+        width: 78px;
+        font-size: 14px;
+    }
+    .btn{
+        margin-top: 4px;
+    }
+    input::placeholder{
+        font-size: 12px;
+    }
+}
+@media screen and (width: 1024px) and (height: 600px) {
+    .heading{
+        margin: 18px;
+    }
+    form{
+        height: 420px;
+    }
+    input{
+        padding: 8px;
+        margin: 18px;
+    }
+    .btn{
+        margin-top: 4px;
     }
 }
